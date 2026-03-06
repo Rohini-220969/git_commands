@@ -417,7 +417,7 @@ Forces Git to overwrite remote history.
 git push --force
  Example
 git push --force origin main
-![alt text](image.png)
+![alt text](../image.png)
 
 stash commands
 
@@ -431,8 +431,8 @@ git stash
 Suppose you edited main.cpp but didn’t commit yet.
 
 
+![alt text](<../Screenshot (51).png>)
 
-![alt text](<Screenshot (51).png>)
  52. git stash list
  Purpose
 Shows all stored stashes.
@@ -441,7 +441,7 @@ git stash list
 Example Output
 stash@{0}: WIP on main: Added login feature
 stash@{1}: WIP on develop: Updated UI
-![alt text](<Screenshot (52).png>)
+![alt text](<../Screenshot (52).png>)
 53. git stash pop
  Purpose
 
@@ -452,7 +452,7 @@ git stash pop
 git stash pop
 Result:
 Changes restored
-
+![alt text](<Screenshot (53).png>)
 
 54. git stash apply
 Purpose
@@ -519,7 +519,7 @@ Example
 
 Before
 Commit1 → Commit2 → Commit3 (HEAD)
-![alt text](<Screenshot (58).png>)
+ ![alt text](<Screenshot (58).png>)
 59. git reset --mixed
 Purpose:
 Undo the last commit and unstage the files, but keep changes in working directory.
@@ -531,8 +531,7 @@ git reset --mixed HEAD~1
 ![alt text](<Screenshot (59).png>)
 
 
-something is added
-![alt text](<Screenshot (61).png>)
+
 
 
 
