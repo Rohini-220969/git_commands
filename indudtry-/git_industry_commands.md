@@ -79,7 +79,7 @@ purpose:
 Compact log view. it shows commit history in short format
 Example:
 git log --oneline
-![alt text](<Screenshot (11).png>)
+![alt text](<../Screenshot (11) copy.png>)
 12. git log --graph
 syntax:
 git log --graph
@@ -87,7 +87,7 @@ purpose:
 Graphical branch view.shows the branch structure visually using lines and stars
 better version:
 git log --graph --oneline --all
-![alt text](<Screenshot (12).png>)
+![alt text](<../Screenshot (12).png>)
 13. git show
 syntax:git show
 purpose:
@@ -95,22 +95,22 @@ purpose:
 Shows detail information  of a  specified commit.
 example:
 git show <commit-id>
-![alt text](<Screenshot (13).png>)
 
+![alt text](<../Screenshot (13).png>)
 14. git diff
 syntax: git diff
 purpose:
 Shows unstaged changes. shows difference between files
 example:
 git diff
-![alt text](<Screenshot (14).png>)
+![alt text](<../Screenshot (14).png>)
 15. git diff --staged
 syntax: git  diff --staged
 purpose:
 Shows staged changes. shows changes that are added but not commited
 Example:
 git diff --staged
-![alt text](<Screenshot (15).png>)
+![alt text](<../Screenshot (15).png>)
 
 16.git blame
 syntax:git blame
@@ -119,7 +119,7 @@ git blame shows who last modified each line of a file
 
 Example:
 git blame filename.txt
-![alt text](<Screenshot (16).png>)
+![alt text](<../Screenshot (16).png>)
 17. git reflog
 syntax:git reflog
 purpose:
@@ -127,7 +127,7 @@ Shows reference log history.
  shows the history of where your HEAD and branches have pointed
 example:
 git reflog
-![alt text](<Screenshot (17).png>)
+![alt text](<../Screenshot (17).png>)
 
 18. git shortlog
 syntax:git shortlog
@@ -135,8 +135,8 @@ purpose:
 Summarizes commit history by author.
 example:
 git shortlog
-![alt text](<Screenshot (18).png>)
 
+![alt text](<../Screenshot (18).png>)
 file tracking commands
 19. git add
 syntax:git add
@@ -144,40 +144,40 @@ purpose:
 Adds specific file or folder  or all files.
 example:
 git add git file.txt
-![alt text](<Screenshot (19).png>)
+![alt text](<../Screenshot (19).png>)
 20. git add .
 purpose:
 Adds all files.
 example:
 git add .
-![alt text](<Screenshot (20).png>)
+![alt text](<../Screenshot (20).png>)
 21. git add -p
 purpose:
 Interactive staging.
 add changes interactively in small pieces (hunks)
 example:
 git add -p
-![alt text](<Screenshot (21).png>)
+![alt text](<../Screenshot (21).png>)
 22. git restore
 syntax: git restore
 purpose:
 Restores working directory file. used to edit a file but want  to undo changes 
 example:
 git restore file.txt
-![alt text](<Screenshot (23).png>)
+![alt text](<../Screenshot (23).png>)
 
 23. git restore --staged
 syntax: git restore --staged
 purpose:
 unstages a file (removes from staging area) But keeps your change in the working directroy
 used when you accidently did git add.
-![alt text](<Screenshot (24).png>)
+![alt text](<../Screenshot (24).png>)
 24. git rm
 syntax:git rm
 purpose: 
 deletes a file from working directory and staging area
 used when you want to permenently  removes a file from the repository
-![alt text](<Screenshot (25).png>)
+![alt text](<../Screenshot (25).png>)
 
 25. git mv
 syntax: git mv
@@ -186,7 +186,7 @@ rename a file and move a file to another folder and automatically stage the chan
 git mv only works for files that are already:
 Added using git add
 Committed at least once
-![alt text](<Screenshot (26).png>)
+![alt text](<../Screenshot (26).png>)
 
 commit commands
 26. git commit
@@ -195,22 +195,22 @@ purpose:
 saving your changes permanently into git history
 git add-select changes 
 git commit - save changes
-![alt text](<Screenshot (27).png>)
+![alt text](<../Screenshot (27).png>)
 
 27. git commit -m
 syntax:git commit -m " <something in string>"
 purpose:
 creates a commit with message directly in terminal
-![alt text](<Screenshot (28).png>)
 
+![alt text](<../Screenshot (28).png>)
 28. git commit --amend
 syntax: git commit --amend
 purpose: 
 change last commit message
 add forgotten files
 editor opens ->change message ->save
-![alt text](<Screenshot (29).png>)
 
+![alt text](<../Screenshot (29).png>)
 29. git commit --no-edit
 Syntax:
 git commit --amend --no-edit
@@ -219,8 +219,8 @@ git commit --amend --no-edit
 --no-edit means:
  Do not change the previous commit message
 It keeps the same message.
-![alt text](<Screenshot (30).png>)
 
+![alt text](<../Screenshot (30).png>)
 Branch Management Commands
 30. git branch
 Purpose
@@ -229,7 +229,7 @@ Syntax
 git branch
 Example
 git branch
-![alt text](<Screenshot (31).png>)
+![alt text](<../Screenshot (31).png>)
 31. git branch -a
 Purpose
 Shows all branches (local + remote).
@@ -240,7 +240,7 @@ Example
   develop
   remotes/origin/main
   remotes/origin/develop
-![alt text](<Screenshot (32).png>)
+![alt text](<../Screenshot (32).png>)
 
 32. git branch -d
  Purpose
@@ -251,7 +251,7 @@ git branch -d branch_name
 Example
 git branch -d feature
 Branch deleted only if merged.
-![alt text](<Screenshot (33).png>)
+![alt text](<../Screenshot (33).png>)
 33. git branch -D
  Purpose
 Force delete branch.
@@ -260,7 +260,7 @@ Syntax
 git branch -D branch_name
 Example
 git branch -D feature
-![alt text](<Screenshot (34).png>)
+![alt text](<../Screenshot (34).png>)
 34. git checkout
 Purpose
 Used to switch branches or restore files.
@@ -268,8 +268,7 @@ Used to switch branches or restore files.
 git checkout branch_name
 Example
 git checkout develop
-
- ![alt text](<Screenshot (35).png>)
+![alt text](<../Screenshot (35).png>)
  35. git checkout -b
 Purpose
 Creates new branch + switches to it.
@@ -280,7 +279,7 @@ git checkout -b feature-login
 Result:
 Branch created
 Automatically switched to it
-![alt text](<Screenshot (36).png>)
+![alt text](<../Screenshot (36).png>)
 36. git switch
 This is a modern command introduced later in Git to replace checkout for branch switching.
  Purpose
@@ -289,7 +288,7 @@ Switch branches.
 git switch branch_name
  Example
 git switch main
-![alt text](<Screenshot (37).png>)
+![alt text](<../Screenshot (37).png>)
 37. git switch -c
  Purpose
 Create new branch and switch to it.
@@ -299,7 +298,7 @@ Example
 git switch -c feature-payment
  Branch created
  Switched immediately.
- ![alt text](<Screenshot (38).png>)
+![alt text](<../Screenshot (38).png>)
 
  Merge & Integration Commands
   38. git merge
@@ -310,7 +309,7 @@ You developed a feature in a branch and now want to add it to the main branch.
  Syntax
 git merge branch_name
 It merges branch_name -> current branch.
-![alt text](<Screenshot (39).png>)
+![alt text](<../Screenshot (39).png>)
 
 39.  git merge --no-ff Means
 --no-ff means No Fast-Forward Merge.
@@ -318,7 +317,7 @@ It forces Git to create a merge commit, even if a fast-forward merge is possible
 This keeps the feature branch history visible.
  Syntax
 git merge --no-ff branch_name
-![alt text](<Screenshot (40).png>)
+![alt text](<../Screenshot (40).png>)
  Remote Repository Commands
 
 40. git remote
@@ -329,7 +328,7 @@ git remote
 Example
 origin
 origin = default remote repository.
-![alt text](<Screenshot (41).png>)
+![alt text](<../Screenshot (41).png>)
 41. git remote -v
 Purpose
 Shows remote repository URLs for fetch and push.
@@ -338,7 +337,7 @@ git remote -v
 Example
 origin  https://github.com/rohini/demo.git (fetch)
 origin  https://github.com/rohini/demo.git (push)
-![alt text](<Screenshot (42).png>)
+![alt text](<../Screenshot (42).png>)
 42. git remote add
 Purpose
 Adds a new remote repository.
@@ -347,7 +346,7 @@ git remote add remote_name repository_URL
 Example
 git remote add origin https://github.com/rohini/demo.git
 Now your local repo is connected to the remote repo.
-![alt text](<Screenshot (43).png>)
+![alt text](<../Screenshot (43)-1.png>)
 43. git remote remove
 Purpose
 Removes a remote repository connection.
@@ -355,7 +354,7 @@ Removes a remote repository connection.
 git remote remove remote_name
  Example
 git remote remove origin
-![alt text](<Screenshot (43)-1.png>)
+![alt text](<../Screenshot (43)-1.png>)
 
 44. git fetch
  Purpose
@@ -364,15 +363,15 @@ Downloads latest changes from remote repository but does not merge them.
 git fetch
 Example
 git fetch origin
-![alt text](<Screenshot (44).png>)
+![alt text](<../Screenshot (44).png>)
 45. git fetch --all
 Purpose
 Fetches updates from all remote repositories.
 Syntax
 git fetch --all
 Useful when you have multiple remotes.
-![alt text](<Screenshot (45).png>)
 
+![alt text](<../Screenshot (45).png>)
 46. git pull
 Purpose:
 Downloads and automatically merges changes from remote repository.
@@ -382,7 +381,7 @@ Example:
 git pull origin main
 This performs:
 git fetch + git merge
-![alt text](<Screenshot (46).png>)
+![alt text](<../Screenshot (46).png>)
 
 47. it pull --rebase
  Purpose
@@ -392,7 +391,7 @@ Keeps clean commit history.
 git pull --rebase
 Example
 git pull --rebase origin main 
-![alt text](<Screenshot (47).png>)
+![alt text](<../Screenshot (47).png>)
 48. git push
  Purpose
 Uploads your local commits to remote repository.
@@ -400,7 +399,7 @@ Syntax
 git push
 Example
 git push origin main
-![alt text](<Screenshot (48).png>)
+![alt text](<../Screenshot (48).png>)
 
 49. git push -u origin branch-name
  Purpose
@@ -410,7 +409,7 @@ Syntax
 git push -u origin branch-name
 Example
 git push -u origin feature-login
-![alt text](<Screenshot (49).png>)
+![alt text](<../Screenshot (49).png>)
  50. git push --force
   Purpose
 Forces Git to overwrite remote history.
