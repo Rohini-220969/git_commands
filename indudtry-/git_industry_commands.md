@@ -6,8 +6,9 @@ purpose:sets the username globally for all repositories
 2. git config --global user.email
 syntax:git config --global user.email"your@email.com"
 purpose: sets email globally for commit identification
-![alt text](<Screenshot (1)-1.png>)
-![alt text](<Screenshot (2).png>)
+![alt text](<../Screenshot (1)-1.png>)
+![alt text](<../Screenshot (1).png>)
+![alt text](<../Screenshot (2).png>)
 3. git config --list
 syntax:git config --list
 Purpose:
@@ -15,7 +16,7 @@ Displays all configured Git settings.
 Example:
 git config --list
 
-![alt text](<Screenshot (3).png>)
+![alt text](<../Screenshot (3).png>)
 4. git config --unset
 Syntax:
 git config --unset user.name
@@ -24,7 +25,7 @@ Removes a configuration value.
 Example:
 git config --unset user.name
 
-![alt text](<Screenshot (4).png>)
+![alt text](<../Screenshot (4).png>)
 5. git init
 Syntax:
 git init
@@ -32,7 +33,7 @@ Purpose:
 Initializes a new Git repository.
 Example:
 git init
-![alt text](<Screenshot (5).png>)
+![alt text](<../Screenshot (5).png>)
 6. git clone
 Syntax:
 git clone <repository-url>
@@ -40,7 +41,7 @@ Purpose:
 Creates a copy of a remote repository.
 Example:
 git clone https://github.com/username/project.git
-![alt text](<Screenshot (6).png>)
+![alt text](<../Screenshot (6).png>)
 7. git clone --branch
 Syntax:
 git clone --branch branch-name <repo-url>
@@ -48,7 +49,7 @@ Purpose:
 Clones a specific branch.
 Example:
 git clone --branch develop https://github.com/username/project.git
-![alt text](<Screenshot (7).png>)
+![alt text](<../Screenshot (7).png>)
 8. git clone --depth
 Syntax:
 git clone --depth <number> <repo-url>
@@ -56,7 +57,7 @@ Purpose:
 Performs shallow clone (latest commit only).
 Example:
 git clone --depth 1 https://github.com/username/project.git
-![alt text](<Screenshot (8).png>)
+![alt text](<../Screenshot (8).png>)
 9. git status
 syntax:
 git status
@@ -64,14 +65,14 @@ purpose:
 Shows working directory status.
 Example:
 git status
-![alt text](<Screenshot (9).png>)
+![alt text](<../Screenshot (9).png>)
  10. git log
 syntax:git log
 purpose:
 Shows full commit history.
 Example:
 git log
-![alt text](<Screenshot (10).png>)
+![alt text](<../Screenshot (10).png>)
 11. git log --oneline
 syntax:git log --oneline
 purpose:
