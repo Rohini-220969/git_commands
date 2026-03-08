@@ -574,6 +574,17 @@ Syntax
 git rebase <branch-name>
 Example
 git rebase main
+![alt text](<Screenshot (68).png>)
+
+
+ 65. git rebase -i
+Purpose:
+Interactive rebase to edit, combine, or reorder commits.
+Syntax
+git rebase -i HEAD~n
+Example
+
+git rebase -i HEAD~3
 
 
 
