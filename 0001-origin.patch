@@ -1,0 +1,38 @@
+From 0896d284390db0c8cf3901f0403b266523807295 Mon Sep 17 00:00:00 2001
+From: Rohini <rohini@gmail.com>
+Date: Sun, 8 Mar 2026 06:08:33 +0000
+Subject: [PATCH 1/2] origin
+
+---
+ indudtry-/git_industry_commands.md | 8 ++++++++
+ 1 file changed, 8 insertions(+)
+
+diff --git a/indudtry-/git_industry_commands.md b/indudtry-/git_industry_commands.md
+index 975ea43..34277e6 100644
+--- a/indudtry-/git_industry_commands.md
++++ b/indudtry-/git_industry_commands.md
+@@ -599,6 +599,7 @@ Continues the rebase process after resolving conflicts.
+ Syntax
+ git rebase --continue
+ 
++
+ 12. Cherry Pick & Patch Commands
+ 68. git cherry-pick
+ 
+@@ -610,6 +611,13 @@ Example
+ 
+ git cherry-pick a1b2c3d
+ ![alt text](<Screenshot (71).png>)
++69. git format-patch
++Purpose:
++Creates patch files from commits.
++Syntax
++git format-patch <commit-id>
++Example
++git format-patch HEAD~2
+ 
+ 
+ 
+-- 
+2.52.0.windows.1
+
