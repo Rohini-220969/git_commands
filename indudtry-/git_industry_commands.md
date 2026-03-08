@@ -701,9 +701,38 @@ Purpose:
 Helps find the commit that introduced a bug.
 
 Syntax
-git bisect
+git bisect![alt text](<Screenshot (78).png>)
 
 
+79. git bisect start
+
+Purpose:
+Starts the bisect process.
+
+Syntax
+
+git bisect start
+![alt text](<Screenshot (78)-1.png>)
+
+80. git bisect good
+
+Purpose:
+Marks a commit as working correctly.
+
+Syntax
+
+git bisect good <commit-id>
+![alt text](<Screenshot (78)-2.png>)
+
+81. git bisect bad
+
+Purpose:
+Marks a commit as having the bug.
+
+Syntax
+
+git bisect bad <commit-id>
+![alt text](<Screenshot (78)-3.png>)
 
 
 
