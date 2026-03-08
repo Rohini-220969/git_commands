@@ -585,7 +585,19 @@ git rebase -i HEAD~n
 Example
 
 git rebase -i HEAD~3
+![alt text](<Screenshot (69).png>)
+ 66. git rebase --abort
+Purpose:
+Cancels the rebase operation and restores the previous state.
+Syntax
+git rebase --abort
+![alt text](<Screenshot (69).png>)
 
+67. git rebase --continue
+Purpose:
+Continues the rebase process after resolving conflicts.
+Syntax
+git rebase --continue
 
 
 
