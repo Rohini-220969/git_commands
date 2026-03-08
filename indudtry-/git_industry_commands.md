@@ -599,6 +599,17 @@ Continues the rebase process after resolving conflicts.
 Syntax
 git rebase --continue
 
+12. Cherry Pick & Patch Commands
+68. git cherry-pick
+
+Purpose:
+Applies a specific commit from another branch.
+Syntax
+git cherry-pick <commit-id>
+Example
+
+git cherry-pick a1b2c3d
+
 
 
 
