@@ -531,23 +531,7 @@ git reset --mixed HEAD~1
 ![alt text](<Screenshot (59).png>)
 
 
-60.  git reset --hard
 
-Purpose:
-Resets the repository to a specific commit and deletes all changes in the working directory and staging area.
-Syntax
-git reset --hard <commit-id>
-Example
-git reset --hard a1b2c3d
-
-61. git revert
-
-Purpose:
-Creates a new commit that reverses the changes of a previous commit.
-Syntax
-git revert <commit-id>
-Example
-git revert a1b2c3d
 
 
 
