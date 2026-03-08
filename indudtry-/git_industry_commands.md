@@ -618,7 +618,8 @@ Syntax
 git format-patch <commit-id>
 Example
 git format-patch HEAD~2
-
+![alt text](<Screenshot (72).png>)
+70. 
 
 
 
