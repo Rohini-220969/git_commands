@@ -599,6 +599,7 @@ Continues the rebase process after resolving conflicts.
 Syntax
 git rebase --continue
 
+
 12. Cherry Pick & Patch Commands
 68. git cherry-pick
 
@@ -610,6 +611,13 @@ Example
 
 git cherry-pick a1b2c3d
 ![alt text](<Screenshot (71).png>)
+69. git format-patch
+Purpose:
+Creates patch files from commits.
+Syntax
+git format-patch <commit-id>
+Example
+git format-patch HEAD~2
 
 
 
