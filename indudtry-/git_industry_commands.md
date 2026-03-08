@@ -557,13 +557,24 @@ git clean -f
 Example
 git clean -f
 ![alt text](<Screenshot (66).png>)
-git clean -fd
+ 63. git clean -fd
 Purpose:
 Removes untracked files and directories.
 Syntax
 git clean -fd
 Example
 git clean -fd
+![alt text](<Screenshot (67).png>)
+11. Rebasing Commands
+ 
+64. git rebase
+Purpose:
+Moves or reapplies commits from one branch to another.
+Syntax
+git rebase <branch-name>
+Example
+git rebase main
+![alt text](<Screenshot (68).png>)
 
 
 
