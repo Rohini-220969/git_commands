@@ -548,7 +548,22 @@ Syntax
 git revert <commit-id>
 Example
 git revert a1b2c3d
-
+![alt text](<Screenshot (65).png>)
+62. git clean -f
+Purpose:
+Removes untracked files from the working directory.
+Syntax
+git clean -f
+Example
+git clean -f
+![alt text](<Screenshot (66).png>)
+git clean -fd
+Purpose:
+Removes untracked files and directories.
+Syntax
+git clean -fd
+Example
+git clean -fd
 
 
 
