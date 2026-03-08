@@ -609,6 +609,8 @@ git cherry-pick <commit-id>
 Example
 
 git cherry-pick a1b2c3d
+![alt text](<Screenshot (71).png>)
+
 
 
 
